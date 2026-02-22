@@ -1,0 +1,28 @@
+# Fichiers de configuration sensibles
+config/database.php
+
+# Fichiers temporaires
+*.log
+*.tmp
+*.cache
+*.lock
+
+# Dossiers système
+.DS_Store
+Thumbs.db
+._*
+
+# Fichiers de test
+test_*.php
+debug_*.php
+create_*.php
+install.php
+
+# Dossiers d'IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Fichiers de base de données
+*.sql
+*.sqlite
